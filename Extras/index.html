@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>CoinLoft</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="../js/login.js" type="text/javascript"></script>
+<link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+<link href="../Styles/Login.css" rel="stylesheet">
+
+
+        
+
+</head>
+<body>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="button"><span>BitCoin Wallet</span></button>
+
+<div id="id01" class="modal">
+  
+    <form  id="action" class="modal-content animate" action="../HTML/AB-homePage.html" method=get>
+        <div class="imgcontainer">
+          <img src="../images/vader.png" alt="Avatar" class="avatar">
+        </div>
+
+    <div class="container">
+      
+
+      <label for="id"><b>Wallet ID</b></label>    <div class="walletId" name="walletId" style= "text-overflow:ellipsis;">3G4VWrEYrDfLid73mgyoyuzHErLWqKSEW2</div>
+
+      <input id="idp" type="password" placeholder="WALLET ID" name="id"  required>
+
+          <button onclick="myfunction()" type="submit" class="connect" name="connect">Connect</button>
+        <p id="wallet"></p> <!-- for javascript below -->
+
+</div>
+    
+    <div class="modal-footer">
+        <p>BitLoft Inc.</p>
+    </div>
+
+   
+  </form>
+</div>
+
+
+
+</body>
+</html>

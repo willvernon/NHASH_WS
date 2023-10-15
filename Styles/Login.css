@@ -1,0 +1,282 @@
+ /* Background */
+ body {
+    background-image:url("../images/City.jpg");
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-attachment:fixed;
+    background-position-x: 30%;
+    background-position-y: 5%;
+    background-size: cover;
+    background-color: #702424d5;
+    font-family: 'Exo 2', sans-serif;
+   
+}
+
+/* Label for input */
+label {
+    color:white;
+    font-size: 30px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 13px 18px;
+    margin: 25px 0;
+    display: inline-block;
+    border: 1px #888;
+    box-sizing: border-box;
+}
+/* Set a style for buttons */
+.button {
+    border-radius:15px;
+    background-color:rgba(26, 25, 25, 0.575);
+    border: none;
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Exo 2', sans-serif;
+    font-style: italic;
+    padding: 12px;
+    width: 100;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    position:absolute;
+    top:73%;
+    left:64%;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+  /* Set a style for connect buttons */
+.connect {
+    border-radius:15px;
+    background-color:rgba(26, 25, 25, 0.575);
+    border: none;
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Exo 2', sans-serif;
+    padding: 12px;
+    width: 100;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    top:63%;
+    left:30%;
+    z-index: 1; /* Sit on top */
+    overflow:auto;
+
+}
+
+.connect span {
+    cursor: pointer;
+    display: inline-block;
+    position:relative;
+    transition: 0.5s;
+}
+
+.connect span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.connect:hover span {
+    padding-right: 25px;
+}
+
+.connect:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: fit-content;
+    padding: 10px 18px;
+    background-color: #ff0000;
+    cursor: pointer;
+}
+
+/* The Close Button (x) */
+.close {
+    position: fixed;
+    bottom: 530px;
+    right: 525px;
+    color: #888;
+    font-size: 40px;
+    font-weight:bolder;
+    
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* The 2 Close Button (x) */
+.close2 {
+    position: fixed;
+    bottom: 526px;
+    right: 520px;
+    color: #888;
+    font-size: 40px;
+    font-weight:bolder;
+    transform: rotate(90deg);
+    
+}
+
+.close2:hover,
+.close2:focus {
+    color: red;
+    cursor: pointer;
+}
+
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    position: center;
+    
+}
+
+img.avatar {
+   
+    border-radius: 30%;
+    width: 50%;
+    height: 50%;
+}
+
+.container {
+    padding: 5px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(255, 16, 16, 0.698); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.459); /* Black w/ opacity */
+    padding-top: 50px;
+    padding-right: 20px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+/* Modal Content/Box */
+.modal-content {
+   background-color:rgb(43, 50, 58);
+    background-position: bottom;
+    background-size: cover;
+    background-color: rgba(107, 5, 5, 0.753);
+    margin: 2.5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 5px solid #888;
+    width:400px; /* will only change size with the size of the interior objects */
+    height: fit-content;
+}
+
+/* Modal Footer */
+.modal-footer {
+    padding: 2px 16px;
+    background-color:transparent;
+    color:white;
+    text-align:center;
+    font-size: 40px;
+    font-family: 'Exo 2', sans-serif;
+    height: 75px;
+    padding-bottom: 25px
+    
+
+}
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+    div.walletId {
+        white-space:nowrap;
+        width: 200px;
+        overflow: hidden;
+        border: 1px solid #00000010;
+        
+    }
+
+    div.walletId:hover {
+        text-overflow: inherit;
+        overflow: visible;
+    }
+
+    .walletId {
+        color: white;
+        font-size: 15px;
+        font-family: 'Exo 2', sans-serif;
+        margin: 5px;
+    }

@@ -1,0 +1,551 @@
+/* WmVernon */
+        /*font-family: 'Pacifico', cursive;
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Tienne', serif;*/
+
+
+        /* */
+
+
+        
+       
+        body{
+            background-color: white;
+            /*background-image: url(../images/back.jpeg);*/
+            background-position-x: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: 'Montserrat', sans-serif;
+            
+
+        }
+
+
+        
+
+        .topnav {
+  overflow: hidden;
+  background-color: rgb(254, 254, 254);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #6eaab3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  height: 57px;
+}
+
+.topnav a:hover {
+  background-color: rgb(216, 13, 13);
+  color: black;
+}
+
+
+.active1 {
+  background-color: rgb(216, 13, 13);
+  color: rgb(255, 255, 255);
+  border-radius: 1px 20px 5px 1px;
+  font-size:17px;
+}
+
+.active {
+    background-color: rgb(216, 13, 13);
+    color: rgb(255, 255, 255);
+    
+  }
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+        .columnSide {
+            background-color: white;
+            margin-right: 5px;
+            margin-top: 150px;
+            width: fit-content;
+            height: 400px;
+            float: left;
+            padding-top: 15px;
+            padding-left: 0px;
+            padding-right: 10px;
+            font-size: 25px;
+            font-weight: bold;
+            border-radius: 5px 20px 20px 5px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            overflow-x: hidden;
+            font-family: 'Montserrat', sans-serif;
+            box-shadow: 15px 10px 10px 0 rgba(0, 0, 0, 0.541), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-top: solid;
+            border-bottom: solid;
+            border-color: rgb(216, 13, 13);
+
+        }
+
+       
+ 
+        .columnSide a {
+            padding: 1px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #000000;
+            display: block;
+            line-height: 2;
+            font-weight: bold;
+        }
+
+        .section {
+            font-size: 20px;
+            line-height: 2;
+            
+        }
+
+        .dataPanel {
+            background-color: rgba(0, 0, 0, .904);
+            margin-right: 12px;
+            margin-top: 0px;
+            margin-left: 190px;
+            width: 50%;
+            height: fit-content;
+            padding-left: 35px;
+            padding-bottom: 30px;
+            padding-top: 30px;
+            float: auto;
+            color: aliceblue;
+            font-size: 20px;
+            bottom: fit-content;
+            box-shadow: 15px 10px 10px 0 rgba(0, 0, 0, 0.541), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            font-family: 'Montserrat', sans-serif;
+            
+
+        }
+
+        .dataPanel2 {
+            background-color: rgba(0, 0, 0, .904);
+            margin-right: 12px;
+            margin-top: 0px;
+            margin-left: 190px;
+            width: 50%;
+            height: fit-content;
+            padding-left: 35px;
+            padding-bottom: 30px;
+            padding-top: 30px;
+            float: auto;
+            border-radius: 1px 1px 20px 20px;
+            color: aliceblue;
+            font-size: 20px;
+            bottom: fit-content;
+            box-shadow: 15px 10px 10px 0 rgba(0, 0, 0, 0.541), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            font-family: 'Montserrat', sans-serif;
+
+        }
+
+        .container1 {
+            background-color: rgba(0, 0, 0, .904);
+            height: 220px;
+            width: 360px;
+            position: absolute;
+            left: 13%;
+            float: top;
+            box-shadow: 15px 10px 10px 0 rgba(0, 0, 0, 0.541), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            color: aliceblue;
+            padding: 10px;
+            font-size: 25px;
+        }
+
+        .container2 {
+            background-color: rgba(0, 0, 0, .904);
+            height: 220px;
+            width: 360px;
+            position: absolute;
+            left: 40%;
+            float: top;
+            box-shadow: 15px 10px 10px 0 rgba(0, 0, 0, 0.541), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            color:aliceblue;
+            padding: 10px;
+            font-size: 23px;
+            font-family: 'IBM Plex Sans', sans-serif;
+        }
+
+        .container3 {
+            background-color: rgba(0, 0, 0, .904);
+            height: fit-content;
+            width: 360px;
+            position: absolute;
+            left: 39.5%;
+            top: 373px;
+            float:top;
+            box-shadow: 15px 10px 10px 0 rgba(0, 0, 0, 0.541), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            color:aliceblue; 
+            padding: 10px;
+            margin:10px;
+            font-size: 20px;
+            font-family: 'IBM Plex Sans', sans-serif;
+        }
+
+        .container4 {
+            background-color: rgba(0, 0, 0, .904);
+            height: fit-content;
+            width: 360px;
+            position: relative;
+            float: top;
+            left: 13%;
+            top: 235px;
+            box-shadow: 15px 10px 10px 0 rgba(0, 0, 0, 0.541), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            color:aliceblue; 
+            padding: 10px;
+            margin: 10px;
+            font-size: 20px;
+            font-family: 'IBM Plex Sans', sans-serif;
+        }
+/*
+        .graphPanel {
+            background-color: rgba(0, 0, 0, 0.904);
+            float:right;
+            position: fixed;
+            height: 500px;
+            top: 110px;
+            right: 30px;
+            width: 300px;
+            margin: 15px;
+            padding: 1px;
+            color: aliceblue;
+            font-size: 25px;
+            overflow-x: hidden;
+            size: fit-content;
+            font-family: 'IBM Plex Sans', sans-serif;
+
+        }*/
+
+        
+        .columnTop {
+            background-color: rgb(254, 254, 254);
+            border-top-style: solid;
+            border-color: rgb(216, 13, 13);
+            margin-left: 100px;
+            width: 62%;
+            padding: 10px;
+            padding-left: 35px;
+            position: static;
+            float: top;
+            height: 10%;
+            font-size: 25px;
+            border-radius: 10px 100px;
+            color: rgb(0, 0, 0);
+            font-weight: 100px;
+            box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.418), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            font-family: 'Montserrat', sans-serif;
+            
+
+        }
+
+        .row:after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+
+
+        @media screen and (max-width: 600px) {
+
+            .column.side,
+            .column.middle {
+                width: 100%;
+            }
+        }
+
+        .bitCoin {
+
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+
+
+        .profits {
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+
+        }
+
+        .active {
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+
+        }
+
+        .refresh {
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+            background-color: rgb(254, 254, 254);
+        }
+        
+        .topnav-right {
+            float: right;
+        }
+
+        .main {
+            margin-left: 200px;
+            /* Same as the width of the sidenav */
+        }
+
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+
+            .sidenav a {
+                font-size: 18px;
+            }
+        }
+
+        img {
+            width: 230px;
+            height: 105px;
+            padding: 0;
+            margin: 0;
+            position: relative;
+            bottom: 40px;
+            right: 10px;
+            margin-bottom: 1px;
+        }
+
+        .active {
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+            
+
+        }
+
+
+
+
+
+
+         
+         label {
+            color:rgb(254, 254, 254);
+            font-size: 35px;
+            font-family: 'Exo 2', sans-serif;
+        }
+        
+        
+        
+        
+        input[type=text], input[type=password] {
+            width: 22%;
+            padding: 11px 15px;
+            margin: 10px 0;
+            display: inline-block;
+            border: 1px #888;
+            box-sizing: border-box;
+            
+        }
+      
+        .button {
+            border-radius:15px;
+            background-color:rgba(26, 25, 25, 0.575);
+            border: none;
+            color:black;
+            text-align: center;
+            font-size: 25px;
+            font-family: 'Exo 2', sans-serif;
+            font-style: italic;
+            padding: 12px;
+            width: 100;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+            position:absolute;
+            top:73%;
+            left:64%;
+        }
+        
+        .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+        
+        .button span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+        
+        .button:hover span {
+            padding-right: 25px;
+        }
+        
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+
+        
+        .connect {
+            border-radius:15px;
+            background-color:rgba(26, 25, 25, 0.575);
+            border: none;
+            color:rgb(216, 13, 13);
+            text-align: center;
+            font-size: 25px;
+            font-style: italic;
+            font-family: 'Exo 2', sans-serif;
+            padding: 10px;
+            width: 100;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 10px;
+            top:63%;
+            left:40%;
+            z-index: 1; /* Sit on top */
+            overflow:auto;
+        
+        }
+        
+        .connect span {
+            cursor: pointer;
+            display: inline-block;
+            position:relative;
+            transition: 0.5s;
+        }
+        
+        .connect span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+        
+        .connect:hover span {
+            padding-right: 25px;
+        }
+        
+        .connect:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+        
+        
+        
+        
+        
+       
+        
+        
+        img.avatar {
+           
+            border-radius: 20%;
+            width: 65%;
+            height: 65%;
+        }
+        
+        .container {
+            padding: px;
+        }
+        
+        span.psw {
+            float: right;
+            padding-top: px;
+        }
+        
+        
+        
+        .modal-content {
+            background-position: bottom;
+            background-size: cover;
+            margin: 20% auto 5% auto; /* 5% from the top, 15% from the bottom and centered */
+            width:255px; /* will only change size with the size of the interior objects */
+            height: 0px;
+        }
+        
+       
+        
+        .animate {
+            -webkit-animation: animatezoom 0.6s;
+            animation: animatezoom 0.6s;
+        }
+        
+        @-webkit-keyframes animatezoom {
+            from {-webkit-transform: scale(0)} 
+            to {-webkit-transform: scale(1)}
+        }
+            
+        @keyframes animatezoom {
+            from {transform: scale(0)} 
+            to {transform: scale(1)}
+        }
+        
+        /* Change styles for span and cancel button on extra small screens */
+        @media screen and (max-width: 300px) {
+            span.psw {
+               display: block;
+               float: none;
+            }
+            .cancelbtn {
+               width: 100%;
+            }
+        }
+
+            div.walletId {
+                white-space:nowrap;
+                width: 200px;
+                overflow: hidden;
+                border: 1px solid #00000010;
+                
+            }
+
+            div.walletId:hover {
+                text-overflow: inherit;
+                overflow: visible;
+            }
+
+            .walletId {
+                color: aliceblue;
+                font-size: 12px;
+                font-family: 'Exo 2', sans-serif;
+                margin: 0px;
+                
+            }
